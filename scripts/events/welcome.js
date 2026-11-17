@@ -20,8 +20,8 @@ module.exports = {
             session2: "noon",  
             session3: "afternoon",  
             session4: "evening",  
-            welcomeMessage: "‎𝘽𝙊𝙏 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇🏴‍☠️📌\n\n𝗟𝗢𝗔𝗗𝗜𝗡𝗚 . . . ...👾🔥😈 /// 𝗔͟𝗖͟͠𝗧𝗜͟͠𝗩𝗘𝗗📨💀⚡▓▓▓▓▓░░░░░ 99% .......\n  ╭────────────◊\n\n🧸—͟͞͞★চলে এসেছি ⚡🧸 তোমাদের মাঝে 👀📌🕸️\nকেমন আছো প্রিয় 🏴‍☠️☄️\n\n—͟͞͞★—͟͞͞★𝑩𝑫 𝑨𝑻𝑻𝑨𝑪𝑲 𝑪𝒀𝑩𝑬𝑹 𝑨𝑹𝑴𝒀—͟͞͞★যেকোনো- প্রয়োজনে আমার 𝐏𝐑𝐈𝐍𝐂𝐄 ভাইকে নক দিতে পারেন ধন্যবাদ ❤️‍🩹 ⚡ ⚠️\n\n\n📌👀𝗳𝗮𝗰𝗲𝗯𝗼𝗼𝗸..... https://www.facebook.com/profile.php?id=61595459930726\n\n 𝐂𝐄𝐎⸙𝙋𝙍𝙄𝙉𝘾𝙀- 007 🕸️\n╰─────────◊",
-             defaultWelcomeMessage: `🫧🫧👀 প্রিয় 🫵💗👀\n╭•┄┅════❁🌺❁════┅┄•╮ \n{userName}\n\n╰•┄┅════❁🌺❁════┅┄•╯\nআসসালামুয়ালাইকুম 💚👑\n\nআপনাকে স্বাগতম 🏴‍☠️☄️\n {multiple} আমাদের {boxName} 💥💝 গ্রুপে 💢👑🌪️\n\n👑গ্রুপে সবার সাথে মিলেমিশে☄️ থাকবেন এবং যে কোন প্রয়োজনে আমার বস 𝙋𝙍𝙄𝙉𝘾𝙀 ভাই কে নক করতে পারেন 💖⚡💢\n\n\n\n𝘽𝙊𝙏 𝘾𝙍𝙀𝘼𝙏𝙊𝙍 : 𝘾𝙀𝙊⚠️🏴‍☠️  𝙋𝙍𝙄𝙉𝘾𝙀 👀⚠️👑`
+            welcomeMessage: "‎𝘽𝙊𝙏 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇🏴‍☠️📌\n\n𝗟𝗢𝗔𝗗𝗜𝗡𝗚 . . . ...👾🔥😈 /// 𝗔͟𝗖͟͠𝗧𝗜͟͠𝗩𝗘𝗗📨💀⚡▓▓▓▓▓░░░░░ 99% .......\n  ╭────────────◊\n\n🧸—͟͞͞★চলে এসেছি ⚡🧸 তোমাদের মাঝে 👀📌🕸️\nকেমন আছো প্রিয় 🏴‍☠️☄️\n\n—͟͞͞★—͟͞͞★𝑩𝑫 𝑨𝑻𝑻𝑨𝑪𝑲 𝑪𝒀𝑩𝑬𝑹 𝑨𝑹𝑴𝒀—͟͞͞★যেকোনো- প্রয়োজনে আমার 𝗔𝐛𝐈͜͡𝗿͜͡ ভাইকে নক দিতে পারেন ধন্যবাদ ❤️‍🩹 ⚡ ⚠️\n\n\n📌👀\n\n 𝐂𝐄𝐎⸙𝗔𝐛𝐈͜͡𝗿͜͡- 007 🕸️\n╰─────────◊",
+             defaultWelcomeMessage: `🫧🫧👀 প্রিয় 🫵💗👀\n╭•┄┅════❁🌺❁════┅┄•╮ \n{userName}\n\n╰•┄┅════❁🌺❁════┅┄•╯\nআসসালামুয়ালাইকুম 💚👑\n\nআপনাকে স্বাগতম 🏴‍☠️☄️\n {multiple} আমাদের {boxName} 💥💝 গ্রুপে 💢👑🌪️\n\n👑গ্রুপে সবার সাথে মিলেমিশে☄️ থাকবেন এবং যে কোন প্রয়োজনে আমার বস 𝗔𝐛𝐈͜͡𝗿͜͡ ভাই কে নক করতে পারেন 💖⚡💢\n\n\n\n𝘽𝙊𝙏 𝘾𝙍𝙀𝘼𝙏𝙊𝙍 : 𝘾𝙀𝙊⚠️🏴‍☠️  𝗔𝐛𝐈͜͡𝗿͜͡ 👀⚠️👑`
         }
     },  
 
@@ -36,10 +36,10 @@ module.exports = {
             if (added.some(p => p.userFbId == api.getCurrentUserID())) {  
 
                 // ✅ AUTO NICKNAME সেট করা  
-                api.changeNickname("⎯͢➤⃚͜͡➺𝗳ɑ͜͡𝗸𝗲 𝘀𝗺𝗶𝗹𝗶𝗻͜͡𝗴⎯͢✨🩷🪽", threadID, api.getCurrentUserID());  
+                api.changeNickname("𝗔𝐛𝐈͜͡𝗿͜͡____🔥🔥", threadID, api.getCurrentUserID());  
 
                 // ▶ Direct Video Link for Bot Add
-                const botAddVideo = "https://drive.google.com/uc?export=download&id=1fSZ5kf13N7Xks3fI-7zLJb2Q_z9XWI1W";  
+                const botAddVideo = "";  
                 const videoPath = path.join(__dirname, "bot_add.mp4");  
 
                 try {
@@ -92,7 +92,7 @@ module.exports = {
                     .replace(/\{multiple\}/g, multi ? "আপনারা" : "আপনি");  
 
                 // ▶ Direct Video Link for Member Add
-                const memberVideo = "https://drive.google.com/uc?export=download&id=1fSZ5kf13N7Xks3fI-7zLJb2Q_z9XWI1W";  
+                const memberVideo = "";  
                 const videoPath = path.join(__dirname, "member_add.mp4");  
 
                 try {
