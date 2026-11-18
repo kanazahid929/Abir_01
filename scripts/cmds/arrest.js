@@ -24,10 +24,10 @@ module.exports = {
         if (mention.length == 0) return message.reply("please mention someone");
         else if (mention.length == 1) {
             const one = event.senderID, two = mention[0];
-            bal(one, two).then(ptth => { message.reply({ body: "you are arrested I'm inspector প্রিন্স 😤🤜", attachment: fs.createReadStream(ptth) }) })
+            bal(one, two).then(ptth => { message.reply({ body: "you are arrested I'm inspector আবির 😤🤜", attachment: fs.createReadStream(ptth) }) })
         } else {
             const one = mention[1], two = mention[0];
-            bal(one, two).then(ptth => { message.reply({ body: "you are arrested I'm inspector প্রিন্স 😤🤜", attachment: fs.createReadStream(ptth) }) })
+            bal(one, two).then(ptth => { message.reply({ body: "you are arrested I'm inspector আবির 😤🤜", attachment: fs.createReadStream(ptth) }) })
         }
     }
 
