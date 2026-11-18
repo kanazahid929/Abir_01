@@ -54,7 +54,7 @@ module.exports = {
 
       // Construct message with proper tag
       const msg = {
-        body: `বলদা মুরগী'র ডিম চুরি করতে গিয়ে ধরা খাই'ছে _______👀🌩️\n\n ${mentionName}\n\n_______ 😒😾 একদম ডাইরেক্ট ধরা খাইলি আদিল বসের কাছে 😎👑`,
+        body: `বলদা মুরগী'র ডিম চুরি করতে গিয়ে ধরা খাই'ছে _______👀🌩️\n\n ${mentionName}\n\n_______ 😒😾 একদম ডাইরেক্ট ধরা খাইলি আবির বসের কাছে 😎👑`,
         mentions: [
           {
             tag: `@${mentionName}`, // This is what will be visible
