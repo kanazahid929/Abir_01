@@ -2,28 +2,41 @@ const os = require("os");
 const fs = require("fs");
 const path = require("path");
 
-function getSessionUptimeString() {
-  const sessionPath = "/home/leader/Abir_01/session_active.json";
-  let startedAt = Date.now();
+const BASE_DIR = "/home/leader/Abir_01";
+const SESSION_FILE = path.join(BASE_DIR, "session_active.json");
+const RESTART_FLAG = path.join(BASE_DIR, "auto_restart.flag");
 
-  if (fs.existsSync(sessionPath)) {
-    try {
-      const parsed = JSON.parse(fs.readFileSync(sessionPath, "utf8"));
-      if (parsed && typeof parsed.startedAt === "number") {
-        startedAt = parsed.startedAt;
-      }
-    } catch (e) {}
+(function initSessionTracker() {
+  const isScheduledRestart = fs.existsSync(RESTART_FLAG);
+
+  if (isScheduledRestart) {
+    try { fs.unlinkSync(RESTART_FLAG); } catch (e) {}
+    if (!fs.existsSync(SESSION_FILE)) {
+      fs.writeFileSync(SESSION_FILE, JSON.stringify({ startedAt: Date.now() }, null, 2));
+    }
   } else {
     try {
-      fs.writeFileSync(sessionPath, JSON.stringify({ startedAt }, null, 2));
+      fs.writeFileSync(SESSION_FILE, JSON.stringify({ startedAt: Date.now() }, null, 2));
     } catch (e) {}
   }
+})();
+
+function getRealSessionUptime() {
+  let startedAt = Date.now();
+  try {
+    if (fs.existsSync(SESSION_FILE)) {
+      const data = JSON.parse(fs.readFileSync(SESSION_FILE, "utf8"));
+      if (data && typeof data.startedAt === "number") {
+        startedAt = data.startedAt;
+      }
+    }
+  } catch (e) {}
 
   const t = Math.max(0, Math.floor((Date.now() - startedAt) / 1000));
   const d = Math.floor(t / 86400);
   const h = Math.floor((t % 86400) / 3600);
   const m = Math.floor((t % 3600) / 60);
-  const s = Math.floor(t % 60);
+  const s = t % 60;
 
   return `${d}d ${h}h ${m}m ${s}s`;
 }
@@ -56,8 +69,8 @@ function formatUptMessage({ uptimeString, cpu, cores, usedMem, totalMem, hostnam
 module.exports = {
   config: {
     name: "up",
-    version: "2.4",
-    author: "xnil6x",
+    version: "2.6",
+    author: "সিয়াম",
     role: 0,
     category: "system",
     guide: "upt"
@@ -74,7 +87,7 @@ module.exports = {
 };
 
 async function sendUpt(message, threadsData) {
-  const uptimeString = getSessionUptimeString();
+  const uptimeString = getRealSessionUptime();
 
   const cpu = os.cpus()[0].model;
   const cores = os.cpus().length;
