@@ -1,4 +1,32 @@
- const os = require("os");
+const os = require("os");
+const fs = require("fs");
+const path = require("path");
+
+function getSessionUptimeString() {
+  const sessionPath = "/home/leader/Abir_01/session_active.json";
+  let startedAt = Date.now();
+
+  if (fs.existsSync(sessionPath)) {
+    try {
+      const parsed = JSON.parse(fs.readFileSync(sessionPath, "utf8"));
+      if (parsed && typeof parsed.startedAt === "number") {
+        startedAt = parsed.startedAt;
+      }
+    } catch (e) {}
+  } else {
+    try {
+      fs.writeFileSync(sessionPath, JSON.stringify({ startedAt }, null, 2));
+    } catch (e) {}
+  }
+
+  const t = Math.max(0, Math.floor((Date.now() - startedAt) / 1000));
+  const d = Math.floor(t / 86400);
+  const h = Math.floor((t % 86400) / 3600);
+  const m = Math.floor((t % 3600) / 60);
+  const s = Math.floor(t % 60);
+
+  return `${d}d ${h}h ${m}m ${s}s`;
+}
 
 function formatUptMessage({ uptimeString, cpu, cores, usedMem, totalMem, hostname, prefix, totalUsers }) {
   return `
@@ -19,7 +47,7 @@ function formatUptMessage({ uptimeString, cpu, cores, usedMem, totalMem, hostnam
 ──────⦿ 𝗨𝘀𝗲͜͡𝗿 :☄️ ${totalUsers}💥💫
 
 𝐖𝐡𝐨 𝐢͜͡𝐚𝐦 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐧𝐨 𝐢𝐝𝐞𝐚 🚩
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 𝐕𝐢𝐫𝐮𝐬 𝗣͜͡𝗿𝗶𝗻𝗰𝗲 🍾❕
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 𝐕𝐢𝐫𝐮𝐬 Abir__ 🍾❕
 
 ╰────────────◊☄️👀❕
 `;
@@ -46,13 +74,7 @@ module.exports = {
 };
 
 async function sendUpt(message, threadsData) {
-  const t = process.uptime();
-  const d = Math.floor(t / 86400);
-  const h = Math.floor((t % 86400) / 3600);
-  const m = Math.floor((t % 3600) / 60);
-  const s = Math.floor(t % 60);
-
-  const uptimeString = `${d}d ${h}h ${m}m ${s}s`;
+  const uptimeString = getSessionUptimeString();
 
   const cpu = os.cpus()[0].model;
   const cores = os.cpus().length;
