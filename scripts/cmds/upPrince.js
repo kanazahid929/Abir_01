@@ -60,7 +60,7 @@ function formatUptMessage({ uptimeString, cpu, cores, usedMem, totalMem, hostnam
 ──────⦿ 𝗨𝘀𝗲͜͡𝗿 :☄️ ${totalUsers}💥💫
 
 𝐖𝐡𝐨 𝐢͜͡𝐚𝐦 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐧𝐨 𝐢𝐝𝐞𝐚 🚩
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 𝐕𝐢𝐫𝐮𝐬 Abir__ 🍾❕
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 𝐕𝐢𝐫𝐮𝐬 𝐀𝐛𝐢𝐫__ 🍾❕
 
 ╰────────────◊☄️👀❕
 `;
@@ -70,7 +70,7 @@ module.exports = {
   config: {
     name: "up",
     version: "2.6",
-    author: "সিয়াম",
+    author: "Acs Prince Vai",
     role: 0,
     category: "system",
     guide: "upt"
@@ -101,6 +101,6 @@ async function sendUpt(message, threadsData) {
 
   message.reply({
     body,
-    attachment: await global.utils.getStreamFromUrl("https://files.catbox.moe/ecsut1.jpg")
+    attachment: await global.utils.getStreamFromUrl("https://drive.google.com/uc?export=download&id=1_qIOsA8d3MteDOvF7mqUsBxipb8gzXrf")
   });
 }
