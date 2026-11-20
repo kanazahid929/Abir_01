@@ -1,5 +1,5 @@
-<img src="https://i.imgur.com/S1ANQny.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> 𝗳͟𝗮͟͠𝘁𝗵𝗲𝗿  𝗼͟𝗳   ¢ē໐⚡𝙋𝙍𝙄𝙉𝘾𝙀 ⚠️‍☠  </h1>
+<img src="https://drive.google.com/uc?export=download&id=1_qIOsA8d3MteDOvF7mqUsBxipb8gzXrf" alt="banner">
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> 𝗳͟𝗮͟͠𝘁𝗵𝗲𝗿  𝗼͟𝗳   ¢ē໐⚡𝐀𝐛𝐢𝐫 ⚠️‍☠  </h1>
 
 
 
