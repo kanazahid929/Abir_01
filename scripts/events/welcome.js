@@ -10,7 +10,7 @@ module.exports = {
     config: {
         name: "welcome",
         version: "3.2",
-        author: "MD SIYAM OFFICIAL ",
+        author: "Acs Prince Vai",
         category: "events"
     },
 
@@ -39,7 +39,7 @@ module.exports = {
                 api.changeNickname("𝗔𝐛𝐈͜͡𝗿͜͡____🔥🔥", threadID, api.getCurrentUserID());  
 
                 // ▶ Direct Video Link for Bot Add
-                const botAddVideo = "";  
+                const botAddVideo = "https://drive.google.com/uc?export=download&id=1Z_c-Mc1cqjcbUdnlwm2AZ76BGbgqBXnT";  
                 const videoPath = path.join(__dirname, "bot_add.mp4");  
 
                 try {
@@ -92,7 +92,7 @@ module.exports = {
                     .replace(/\{multiple\}/g, multi ? "আপনারা" : "আপনি");  
 
                 // ▶ Direct Video Link for Member Add
-                const memberVideo = "";  
+                const memberVideo = "https://drive.google.com/uc?export=download&id=1Z_c-Mc1cqjcbUdnlwm2AZ76BGbgqBXnT";  
                 const videoPath = path.join(__dirname, "member_add.mp4");  
 
                 try {
