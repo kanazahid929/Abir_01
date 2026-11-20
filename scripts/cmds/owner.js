@@ -16,12 +16,12 @@ module.exports = {
   onStart: async function ({ api, event }) {
     try {
       const ownerInfo = {
-        name: '𝘼𝙘𝙨 𝙎𝙝𝙚𝙞𝙠𝙝 𝙋𝙧𝙞𝙣𝙘𝙚',
+        name: '𝐅𝐚𝐢𝐬𝐚𝐥 𝐊𝐡𝐚𝐧 𝐀𝐛𝐢𝐫',
         gender: '𝐌𝐀𝐋𝐄👾🌪️',
-        nick: '𝙋𝙍𝙄𝙉𝘾𝙀 ⚠️‍☠  '
+        nick: '𝐀𝐛𝐢𝐫 ⚠️‍☠  '
       };
 
-      const videoUrl = 'https://drive.google.com/uc?id=1QyrDMSFSA0IC0gG5VAhhrbNVMWt3Ej0I';
+      const videoUrl = 'https://drive.google.com/uc?export=download&id=1Z_c-Mc1cqjcbUdnlwm2AZ76BGbgqBXnT';
       const tmpFolderPath = path.join(__dirname, 'tmp');
 
       if (!fs.existsSync(tmpFolderPath)) {
@@ -39,10 +39,10 @@ module.exports = {
 ├─⦿ 𝐍𝐚𝐦𝐞: ${ownerInfo.name}
 ├─⦿ 𝗩𝗶͜͡𝗿𝘂𝘀 𝗔𝗹𝗲𝗿𝘁⚡📨
 ├─⦿ 𝗢𝗽𝗽͜͡𝘀𝘀𝘀 ....... 🎭
-├─⦿ 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝘄𝗼𝗿𝗱 :𝐃𝐚𝐫𝐤 𝐖𝐞𝐛 👑📌
-├─⦿ 𝗛𝗼𝗯𝗯𝘆 : 𝐇𝐚𝐜𝐤𝐢𝐧𝐠 🎭
-├─⦿ ⚡ 𝗪͟𝗛͟͠𝗢 𝗜͟𝗔͟͠𝗠 𝘠͟𝗼͟͠𝘶 𝗵͟𝗮͟͠𝘃𝗲 𝗻͟𝗼͟͠ 𝗶͟𝗱͟͠𝗲𝗮 📨🍷
-├─⦿ 𝗳͟𝗮͟͠𝘁𝗵𝗲𝗿  𝗼͟𝗳   𝙃𝙖𝙘𝙠𝙚𝙧 ⚡
+├─⦿ 𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲 𝘄𝗼𝗿𝗱 :𝐄𝐫𝐫𝐨𝐫 👑📌
+├─⦿ 𝗛𝗼𝗯𝗯𝘆 : 𝐂𝐫𝐢𝐜𝐤𝐞𝐭 🎭
+├─⦿ ⚡ 📨🍷
+├─⦿ 𝐈'𝐦 𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐲 ⚡
 ├─⦿ ⁷¹³𝗟𝗢𝗔𝗗𝗜𝗡𝗚...........................👾
 ├─⦿ 𝐆𝐞𝐧𝐝𝐞𝐫: ${ownerInfo.gender}
 ├─⦿ 𝐍𝐢𝐜𝐤 : ${ownerInfo.nick}
