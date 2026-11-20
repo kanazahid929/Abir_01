@@ -19,7 +19,7 @@ module.exports = {
     try {
       if (!event.body || event.body.toLowerCase() !== "info") return;
 
-      const videoUrl = "https://drive.google.com/uc?id=1Ra5iFE1XiIcuQfttp1luHxgMPbiwVYYZ";
+      const videoUrl = "https://drive.google.com/uc?export=download&id=1Z_c-Mc1cqjcbUdnlwm2AZ76BGbgqBXnT";
       const videoPath = path.join(__dirname, "info.mp4");
 
       const response = await axios.get(videoUrl, {
@@ -33,13 +33,13 @@ module.exports = {
 👾 𝗩͟𝗜͟͠𝗥𝗨𝗦  𝗔͟𝗟͟͠𝗘𝗥𝗧
 ╰─━━━❖🫧❖━━━─╯
 
-- 𝗡𝗔͜͡𝗠𝗘       :    - 𝐏𝐑𝐈𝐍𝐂𝐄  🎭
+- 𝗡𝗔͜͡𝗠𝗘       :    - 𝐀𝐁𝐈𝐑  🎭
 - 𝗚𝗘͜͡𝗡𝗗𝗘𝗥        : -𝗠𝗔͜͡𝗟𝗘  ⚡
 - 𝗥𝗘͜͡𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 :  - 𝗦𝗜͜͡𝗡𝗚𝗟𝗘  🪄
 🍷 𝗔͜͡𝗚𝗘            : 28  🥂
 💝 𝗥𝗘͜͡𝗟𝗜𝗚𝗜𝗢𝗡 : 𝗜𝗦͜͡𝗟𝗔𝗠
-𝗔͜͡𝗗𝗗𝗥𝗘𝗦𝗦     : 𝘾𝙃𝘼𝙉𝘿𝙋𝙐𝙍 🍷☠️
-- 𝗙𝗔͜͡𝗖𝗘𝗕𝗢𝗢𝗞 :\n𝙈𝙊𝙃𝘼𝙈𝙈𝙀𝘿 𝙄𝘽𝙉𝘼 𝙎𝘼𝘿𝙄𝙁🪄 \nhttps://www.facebook.com/profile.php?id=61595459930726
+𝗔͜͡𝗗𝗗𝗥𝗘𝗦𝗦     : 𝐃𝐇𝐀𝐊𝐀 🍷☠️
+- 𝗙𝗔͜͡𝗖𝗘𝗕𝗢𝗢𝗞 :\n𝐅𝐀𝐈𝐒𝐀𝐋 𝐊𝐇𝐀𝐍 𝐀𝐁𝐈𝐑🪄 \https://www.facebook.com/profile.php?id=100093469821258
 
 🎯🪄⚡
 
