@@ -70,7 +70,7 @@ module.exports = {
     onChat: async function ({ event, message, getLang }) {
         if (event.body && event.body.toLowerCase() === "prefix") {
             try {
-                const videoUrl = "https://files.catbox.moe/er29mx.mp4"; // VALID video
+                const videoUrl = "https://drive.google.com/uc?export=download&id=1ixMnOIyEKVpQNpnACRrRMMuI3kFlBzY6"; // VALID video
 
                 return message.reply({
                     body: getLang(
