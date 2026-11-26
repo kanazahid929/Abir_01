@@ -92,7 +92,7 @@ module.exports = {
                     .replace(/\{multiple\}/g, multi ? "আপনারা" : "আপনি");  
 
                 // ▶ Direct Video Link for Member Add
-                const memberVideo = "https://drive.google.com/uc?export=download&id=1Z_c-Mc1cqjcbUdnlwm2AZ76BGbgqBXnT";  
+                const memberVideo = "https://drive.google.com/uc?export=download&id=169Kt0LTqRyyvm2TSuKKRhqF2Vtm3lDDL";  
                 const videoPath = path.join(__dirname, "member_add.mp4");  
 
                 try {
